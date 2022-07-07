@@ -1,0 +1,81 @@
+.main{
+    height: 100vh;
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-size: cover;
+}
+.main ul li a:hover{
+    color: black !important;
+    transition: .5s;
+}
+.button:hover{
+    background-color: #000;
+    color: white !important;
+    transition: 1s;
+    border: none;
+    border-radius: 50px;
+}
+.button:not(hover){
+    background-color: #fff;
+    color: blue !important;
+    transition: 1s;
+    border: none;
+}
+.button-b:hover{
+    background-color: #0d6efd;
+    color: white !important;
+    transition: 1s;
+    border: none;
+    border-radius: 50px;
+}
+.button-b:not(hover){
+    transition: 1s;
+    border: none;
+}
+.client-container{
+    background-image: url(images/midil.png);
+    background-repeat:no-repeat;
+    background-position: right;
+    background-position-y: 50rem;
+}
+.testimonial{
+    background-image: url(images/test.png);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: contain;
+}
+.testimonial-section{
+    top: 200px;
+}
+.formed input{
+border-bottom: 1px solid blue !important;
+}
+.formed input::placeholder{
+    color: blue;
+    font-size: larger;
+}
+.formed input:focus{
+    border: none;
+    outline: none;
+}
+
+
+/* end section  */
+.end-section{
+    background-image: url(images/bottom.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+/* footer section */
+footer span{
+    cursor: pointer;
+}
+footer span:hover{
+color: black;
+transition: .7s;
+}
+footer span:not(hover){
+    color: white;
+    transition: .7s;
+}
